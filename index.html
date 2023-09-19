@@ -1,12 +1,128 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Doceria Single Page</title>
-		<link rel="stylesheet" type="text/css" href="css/reset.css">
-		<link rel="stylesheet" type="text/css" href="css/styles.css">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i&display=swap" rel="stylesheet">
-	</head>
-	<body>
-	<h1>skja</h1>
-	</body>
+
+<head>
+	<title>Doceria Single Page</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i&display=swap"
+		rel="stylesheet">
+</head>
+
+<body>
+	<div class="container">
+		<!-- menu lateral  -->
+		<div id="sidebar">
+			<div class="sidebar-container">
+				<img class="logo-doceria" src="img/stand.png" alt="Logo" />
+				<h1>Doceria</h1>
+				<nav>
+					<ul>
+						<li> <a href="#sessao-bemvindo">Bem vindo</a></li>
+						<li> <a href="#sessao-sobre">Sobre nós</a></li>
+						<li> <a href="#sessao-doces1">Bolos</a></li>
+						<li> <a href="#sessao-doces2">Tortas</a></li>
+						<li> <a href="#sessao-doces3">Macarons</a></li>
+						<li> <a href="#sessao-contato">Entre em contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+
+		<!-- conteudo  -->
+		<div class="content">
+			<main>
+				<!-- seção do Bem-vindo  -->
+				<section id="sessao-bemvindo">
+					<div class="banner"></div>
+					<div class="sessao-bemvindo-content">
+						<h1>Seja bem vindo a Doceria</h1>
+						<div class="sessao-minibanner"></div>
+						<div class="sessao-descricao">
+							<p>Somos uma doceria dedicada a criar momentos de doçura e alegria para nossos clientes.
+								Nossa jornada começou há 10 anos, e desde então, temos trabalhado com paixão
+								para trazer os mais deliciosos e artesanais doces para a sua vida.
+							</p>
+							<p>
+								Venha nos visitar e descubra o mundo delicioso que temos a oferecer. A cada mordida,
+								você sentirá o amor e a paixão que colocamos em cada um de nossos doces. Estamos
+								ansiosos para fazer parte dos seus momentos especiais e compartilhar a doçura com você.
+							</p>
+							<a href="#" class="sessao-bemvindo-btn">Leia mais</a>
+
+						</div>
+					</div>
+				</section>
+
+				<!-- seção do sobre nós  -->
+				<section id="sessao-sobre">
+					<div class="sessao-sobre-content">
+
+						<h1>Sobre nós</h1>
+						<div class="sessao-minibanner"></div>
+						<div class="sessao-descricao">
+
+							<p>Na doceria, nossa missão é adoçar sua vida e criar memórias doces que você
+								lembrará com carinho. Nossa equipe dedicada está sempre pronta para atendê-lo com um
+								sorriso e garantir que sua visita seja uma experiência inesquecível.
+							</p>
+
+							<p>Acreditamos que cada cliente é especial, e é por isso que oferecemos um atendimento
+								personalizado e amigável. Se você tem alguma preferência especial, restrição alimentar
+								ou deseja uma sobremesa personalizada, nossa equipe está à disposição para ajudá-lo a
+								encontrar a solução perfeita para satisfazer seus desejos.</p>
+					
+						</div>
+					</div>
+				</section>
+
+				<!-- seção do doce  -->
+
+				<section id="sessao-doces1">
+					<h2>Bolos</h2>
+					<div class="doces1-imgs banner-galeria" id="img1"></div>
+					<div class="doces1-imgs banner-galeria" id="img2"></div>
+					<div class="doces1-imgs banner-galeria" id="img3"></div>
+					<div class="doces1-imgs banner-galeria" id="img4"></div>
+					<div class="doces1-imgs banner-galeria" id="img5"></div>
+				</section>
+
+				<section id="sessao-doces2">
+					<h2>Tortas</h2>
+					<div class="doces2-imgs banner-galeria" id="img6"></div>
+					<div class="doces2-imgs banner-galeria" id="img7"></div>
+					<div class="doces2-imgs banner-galeria" id="img8"></div>
+				</section>
+
+				<section id="sessao-doces3">
+					<h2>Macarons</h2>
+					<div class="doces3-imgs banner-galeria" id="img9"></div>
+					<div class="doces3-imgs banner-galeria" id="img10"></div>
+					<div class="doces3-imgs banner-galeria" id="img11"></div>
+					<div class="doces3-imgs banner-galeria" id="img12"></div>
+				</section>
+
+				<!-- seção do entre em contato  -->
+
+				<section id="sessao-contato">
+					<h2>Entre em contato</h2>
+
+					<form id="form-contato">
+						<input type="text" id="name" name="name" placeholder="Digite seu nome" />
+						<input type="text" id="email" name="email" placeholder="Digite seu email" />
+						<textarea id="message" name="message" placeholder="Escreva sua mensagem"></textarea>
+						<button class="sessao-contato-btn" type="submit">Enviar</button>
+					</form>
+				</section>
+
+				<footer>
+					<p>Angelica @ 2023</p>
+				</footer>
+
+			</main>
+		</div>
+	</div>
+
+</body>
+
 </html>

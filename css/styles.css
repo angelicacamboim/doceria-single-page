@@ -1,0 +1,365 @@
+* {
+	font-family: 'Open sans', 'sans-serif';
+}
+
+ a {
+	transition: .5s;
+ }
+
+ /* ------------------------------------------   menu lateral -------------------------------------------- */
+#sidebar {
+	position: fixed;
+	height: 100%;
+	width: 300px;
+	background-color: #FF1493;
+	padding-top: 40px;
+
+}
+
+ /* menu lateral - conteudo */
+.sidebar-container {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+}
+
+ /* menu lateral - logo */
+.logo-doceria {
+	width: 60px;
+	height: 60px;
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	 
+}
+ /* menu lateral - titulo */
+.sidebar-container h1 {
+	color: white;
+	font-size: 32px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+ /* menu lateral - menus */
+.sidebar-container a {
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	transition: color 0.3s ease; 
+}
+
+ /* menu lateral - hover do mouse */
+.sidebar-container a:hover {
+	color: #af6874;
+
+}
+
+ /* menu lateral - menus */
+.sidebar-container li {
+	padding: 20px;
+}
+
+/* --------------------------------------------------- conteudo ---------------------------------------------------- */
+
+.content {
+	position: absolute;
+	left: 300px;
+	width: calc(100% - 300px);
+}
+
+ /* conteudo - títulos */
+.content h1, .content h2 {
+	color: #FF1493;
+	margin-bottom: 30px;
+}
+ /* conteudo - títulos h1 */
+.content h1 {
+	font-size: 48px;
+}
+ /* conteudo - títulos h2 */
+.content h2 {
+	font-size: 35px;
+}
+
+/* ------------------------------------------------- seções ---------------------------------------------------- */
+
+section {
+	padding-left: 50px;
+}
+
+ /* section - after */
+#sessao-bemvindo::after, #sessao-sobre::after{
+	content: "";
+	display: block;
+	clear: both;
+	margin-bottom: 100px ;
+}
+
+/* ------------------------------------------------ seção bem vindo --------------------------------------*/
+
+#sessao-bemvindo {
+	padding-left: 0;
+}
+
+/* seção bem vindo - banner principal */
+#sessao-bemvindo .banner {
+	height: 500px;
+	background-image: url('../img/banner2.jpg');
+	background-position: center;
+	background-size: cover;
+
+}
+
+/* seção bem vindo - conteudo */
+.sessao-bemvindo-content {
+	padding-left: 50px;
+}
+
+/* seção bem vindo - titulo */
+.sessao-bemvindo-content h1 {
+	margin-top: 70px;
+}
+
+/* seção bem vindo - mini banner */
+.sessao-bemvindo-content .sessao-minibanner {
+	width: 300px;
+	height: 400px;
+	background-image: url('../img/banner3.jpg');
+	background-position: center;
+	background-size: cover;
+	float: left;
+}
+
+/* seção bem vindo - descricao */
+.sessao-bemvindo-content .sessao-descricao {
+	position:absolute;
+	left: 370px;
+	padding-right: 30px;
+}
+
+/* seção bem vindo - paragrafos */
+.sessao-bemvindo-content .sessao-descricao p {
+	line-height: 2;
+	font-size: 16px;
+	margin-bottom: 30px;
+	margin-left: 25px;
+}
+
+/* seção bem vindo - link leia mais */
+.sessao-bemvindo-btn {
+	background-color: #FF1493;
+	color: white;
+	text-decoration: none;
+	padding: 20px 40px;
+	transition: color 0.3s ease; 
+	display: block;
+	width: 100px;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+	margin-left: 25px;
+}
+
+/* seção bem vindo - hover do mouse */
+.sessao-bemvindo-btn:hover {
+	background-color: #FFC0CB;
+}
+
+/* ------------------------------------------------ seção sobre --------------------------------------*/
+
+/* seção sobre - mini banner */
+.sessao-sobre-content .sessao-minibanner {
+	width: 300px;
+	height: 400px;
+	background-image: url('../img/banner4.jpg');
+	background-position: center;
+	background-size: cover;
+	float: right;
+	margin-right: 50px;
+
+}
+
+/* seção sobre - descricao */
+.sessao-sobre-content .sessao-descricao {
+	position:absolute;
+	left: 25px;
+	width: calc(100% - 400px);
+
+}
+
+/* seção sobre - paragrafos */
+.sessao-sobre-content .sessao-descricao p {
+	line-height: 2;
+	font-size: 16px;
+	margin-bottom: 30px;
+	margin-left: 25px;
+}
+
+/* ------------------------------------------------ galerias  --------------------------------------*/
+.banner-galeria {
+	background-position: center;
+	background-size: cover;
+	display: inline-block;
+	height: 200px;
+}
+
+/* seção doces - espaçamentos */
+#sessao-doces1, #sessao-doces2, #sessao-doces3 {
+	padding-right: 50px;
+	margin-bottom: 50px;
+}
+
+
+
+/* ------------------------------------------------ seção doces 1  --------------------------------------*/
+
+/* seção doces - dimensões das imagens */
+.doces1-imgs {
+	width: 18.8%;
+	margin-left: .5%;
+	margin-right: .5%;
+}
+/* seção doces 1 - imagem */
+#img1 {
+	background-image: url('../img/galeria1.jpg');
+	margin-left: 0;
+}
+/* seção doces 1 - imagem */
+#img2 {
+	background-image: url('../img/galeria2.jpg');
+	
+}
+/* seção doces 1 - imagem */
+#img3 {
+	background-image: url('../img/galeria3.jpg');
+}
+/* seção doces 1 - imagem */
+#img4 {
+	background-image: url('../img/galeria4.jpg');
+}
+/* seção doces 1 - imagem */
+#img5 {
+	background-image: url('../img/galeria5.jpg');
+	margin-right: 0;
+}
+
+/* ------------------------------------------------ seção doces 2  --------------------------------------*/
+
+/* seção doces - dimensões das imagens */
+.doces2-imgs {
+	width: 32.18%;
+	margin-left: .5%;
+	margin-right: .5%;
+}
+/* seção doces 2 - imagem */
+#img6 {
+	background-image: url('../img/galeria6.jpg');
+	margin-left: 0;
+}
+/* seção doces 2 - imagem */
+#img7 {
+	background-image: url('../img/galeria7.jpg');
+	
+}
+/* seção doces 2 - imagem */
+#img8 {
+	background-image: url('../img/galeria8.jpg');
+	margin-right: 0;
+}
+
+/* ------------------------------------------------ seção doces 3  --------------------------------------*/
+
+/* seção doces - dimensões das imagens */
+.doces3-imgs {
+	width: 23.8%;
+	margin-left: .5%;
+	margin-right: .5%;
+}
+/* seção doces 3 - imagem */
+#img9 {
+	background-image: url('../img/galeria9.jpg');
+	margin-left: 0;
+}
+/* seção doces 3 - imagem */
+#img10 {
+	background-image: url('../img/galeria10.jpg');
+	
+}
+/* seção doces 3 - imagem */
+#img11 {
+	background-image: url('../img/galeria11.jpg');
+}
+/* seção doces 3 - imagem */
+#img12 {
+	background-image: url('../img/galeria12.jpg');
+	margin-right: 0;
+}
+
+
+/* ------------------------------------------------ seção entre em contato --------------------------------------*/
+
+/* formulario */
+#form-contato {
+	width: 500px;
+
+}
+
+/* formulario - texto */
+#form-contato ::placeholder{
+	color: #FF1493;
+
+}
+
+/* formulario - inputs */
+#name, #email, #message {
+	display: block;
+	border: 1px solid #FF1493;
+	padding: 10px;
+	margin-bottom: 20px;
+	width: 100%;
+	font-size: 16px;
+	font-family: 'Open sans', 'sans-serif';
+
+}
+
+/* formulario - caixa de texto*/
+#message {
+	height: 150px;
+
+}
+
+/* formulario - botão enviar */
+.sessao-contato-btn {
+	background-color: #FF1493;
+	color: white;
+	padding: 20px 20px;
+	transition: color 0.3s ease; 
+	display: block;
+	width: 180px;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+	margin-left: 0;
+}
+
+/* formulario - hover do mouse */
+.sessao-contato-btn:hover {
+	background-color: #FFC0CB;
+
+}
+
+/* ------------------------------------------------ rodapé --------------------------------------*/
+
+footer {
+	padding-top: 100px;
+	height: 50px;
+	color: #FF1493;
+}
+
+footer p {
+	text-align: center;
+	font-weight: bold;
+}
